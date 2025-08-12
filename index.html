@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Faith-based environmental movement in Bangladesh inspired by Islamic values for sustainability and climate justice.">
+  <title>Green Islam Bangladesh</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#1b5e20', // Darkened for better contrast
+            secondary: '#388e3c',
+            'bg-light': '#f4f9f4',
+            'text-dark': '#333',
+            'text-gray': '#555',
+          },
+          fontSize: {
+            '5xl': '3rem', // Larger for titles
+          }
+        },
+      },
+    };
+  </script>
+  <!-- Arabic font -->
+  <link href="https://fonts.googleapis.com/css2?family=Scheherazade&display=swap" rel="stylesheet" />
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="font-sans leading-relaxed bg-bg-light text-text-dark">
+  <header class="text-center p-5 bg-gradient-to-b from-primary to-secondary text-white relative">
+    <div class="flex flex-col items-center">
+      <img src="logo.png" alt="Green Islam Bangladesh Logo" class="max-w-[400px] mb-2.5" />
+      <h1 class="text-5xl font-bold">Green Islam Bangladesh</h1> 
+    </div>
+  </header>
+
+  <nav class="bg-secondary sticky top-0 z-20 shadow-md">
+    <ul class="list-none py-2.5 m-0 flex flex-col md:flex-row justify-center flex-wrap gap-2.5 md:gap-[15px]">
+      <li><a href="index.html" class="text-white no-underline px-[15px] py-2.5 rounded-md transition-all duration-300 hover:bg-primary hover:scale-105">Home</a></li>
+      <li><a href="about.html" class="text-white no-underline px-[15px] py-2.5 rounded-md transition-all duration-300 hover:bg-primary hover:scale-105">About</a></li>
+      <li><a href="campaign.html" class="text-white no-underline px-[15px] py-2.5 rounded-md transition-all duration-300 hover:bg-primary hover:scale-105">Campaign</a></li>
+      <li><a href="contact.html" class="text-white no-underline px-[15px] py-2.5 rounded-md transition-all duration-300 hover:bg-primary hover:scale-105">Contact</a></li>
+      <li><a href="join.html" class="text-white no-underline px-[15px] py-2.5 rounded-md transition-all duration-300 hover:bg-primary hover:scale-105">Join & Connect</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="relative bg-cover bg-center h-96" style="background-image: url('https://source.unsplash.com/random/1600x900/?nature,green,islam');">
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+    <div class="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
+      <h2 class="text-4xl font-bold mb-4">Faith Inspires Action for a Greener World</h2>
+      <p class="text-xl mb-6">Join us in reviving Islamic values for environmental justice.</p>
+      <a href="join.html" class="bg-secondary text-white px-6 py-3 rounded-lg hover:bg-primary transition">Donate Now</a>
+    </div>
+  </section>
+
+  <main class="mx-auto my-5 md:my-10 max-w-[800px] p-4 md:p-5 bg-white rounded-lg shadow-md section">
+    <section>
+      <h2 class="text-primary text-2xl font-semibold mb-2"><i class="fa-solid fa-leaf mr-2"></i>Welcome to Green Islam Bangladesh</h2>
+      <p class="mb-1">Faith Nature Action - Est. 2025</p>
+      <p>We are a faith-based environmental movement inspired by Islamic values to promote sustainability and care for the Earth.</p>
+    </section>
+
+    <section class="mt-10 section">
+      <h2 class="text-primary text-2xl font-semibold mb-2"><i class="fa-solid fa-book-quran mr-2"></i>Daily Ayah</h2>
+      <div id="daily-ayah-arabic" class="dir-rtl font-[Scheherazade] text-[1.2em] mb-2"></div>
+      <div id="daily-ayah-english" class="mb-1"></div>
+      <div id="daily-ayah-reference"></div>
+    </section>
+
+    <section class="mt-10 section">
+      <h2 class="text-primary text-2xl font-semibold mb-2"><i class="fa-solid fa-mosque mr-2"></i>Daily Hadith</h2>
+      <div id="daily-hadith" class="mb-1"></div>
+      <div id="daily-hadith-reference"></div>
+    </section>
+  </main>
+
+  <footer class="text-center p-2.5 bg-primary text-white mt-10">
+    &copy; 2025 Green Islam Bangladesh. All rights reserved.
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
