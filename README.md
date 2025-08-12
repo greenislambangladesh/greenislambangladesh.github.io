@@ -11,4 +11,4 @@ Projects & Inspiration: Detailed pages with icons, images, and CTAs.
 Form Integration: Contact form ready for Formspree.
 Tech Stack: HTML, Tailwind CSS, Vanilla JS. Hosted on GitHub Pages.
 
-Live Demo: https://yourusername.github.io (replace with your repo URL).
+Live Demo: https://greenislambangladesh.github.io/.
