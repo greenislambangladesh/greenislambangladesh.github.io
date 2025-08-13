@@ -12,3 +12,7 @@ Form Integration: Contact form ready for Formspree.
 Tech Stack: HTML, Tailwind CSS, Vanilla JS. Hosted on GitHub Pages.
 
 Live Demo: https://greenislambangladesh.github.io/.
+
+Designed & Developed by Raisul Maharub
+raisulmaharub5@gmail.com
+https://github.com/Muhammad-Raisul-Maharub
